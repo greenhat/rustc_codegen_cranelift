@@ -8,7 +8,7 @@ crate-type = ["dylib"]
 
 [dependencies]
 # These have to be in sync with each other
-cranelift-codegen = { version = "0.87.0", features = ["unwind", "all-arch"] }
+cranelift-codegen = { version = "0.91.1", features = ["unwind", "all-arch"] }
 cranelift-frontend = "0.87.0"
 cranelift-module = "0.87.0"
 cranelift-native = "0.87.0"
